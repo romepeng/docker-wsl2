@@ -1,20 +1,8 @@
 #!/bin/sh
-https://github.com/romepeng/wsl2
+# https://github.com/romepeng/wsl2
 # This is a work-in-progress! Please don't use it yet.
-# 
-#
-# Copyright 2021 Jonathan Bowman. All documentation and code contained
-# in this file may be freely shared in compliance with the
-# Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)
-# and is provided "AS IS" without warranties or conditions of any kind.
-#
-# To use this script, first ask yourself if I can be trusted (I can't; this is
-# a work-in-progress), then read the code below and make sure you feel good
-# about it, then consider downloading and executing this code that comes with
-# no warranties or claims of suitability.
 #
 # OUT="$(mktemp)"; wget -q -O - https://raw.githubusercontent.com/bowmanjd/docker-wsl/main/setup-docker.sh > $OUT; . $OUT
-
 
 DOCKER_GID=36257
 
