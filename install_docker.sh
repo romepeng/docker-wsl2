@@ -15,8 +15,10 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg  | sudo apt-key add -
 #curl -fsSL https://mirrors.aliyun.com/docker-ce/linux/ubuntu/gpg | sudo apt-key add -
 
 # Step 3: 写入软件源信息
-sudo  add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu ${lsb_release  -cs} stable"
-#sudo tee /etc/apt/sources.list.d/docker.list
+#https://download.docker.com/linux/ubuntu/dists/focal/stable/
+
+echo "deb [arch=amd64] https://download.docker.com/linux/${Ubuntu} ${focal} stable" | sudo tee /etc/apt/sources.list.d/docker.list
+
 #sudo add-apt-repository "deb [arch=amd64] https://mirrors.cloud.tencent.com/docker-ce/linux/ubuntu $(lsb_release -cs) stable"
 
 # Step 4: 更新并安装Docker-CE
