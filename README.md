@@ -1,4 +1,8 @@
-# wsl2
+This requires WSL 2. 
+
+Microsoft's has step-by-step instructions on how to upgrade to WSL 2.
+https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-2---update-to-wsl-2
+
 Docker on WSL2 without Docker Desktop
 
 how to run Docker on WSL2 under Windows without Docker Desktop (Debian / Ubuntu)?
